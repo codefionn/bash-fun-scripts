@@ -8,5 +8,5 @@ if ! [ $# -eq 1 ] ; then
 	exit 1
 fi
 
-curl -sSL "https://github.com/$1?tab=repositories" | grep -A1 'itemprop="name codeRepository"' | awk '/<\/a>/ { print $1 } '
+curl -sSL "https://github.com/$1?tab=repositories" | grep -A1 'itemprop="name codeRepository"' | awk '/<\/a>/ { print $1 } ' | awk -F '</a>' '{ print $1 }'
 
