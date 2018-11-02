@@ -13,3 +13,5 @@ check_for_prog printf
 check_for_prog ls
 check_for_prog lscpu
 check_for_prog tr
+check_for_prog lp
+check_for_prog pdftoppm
