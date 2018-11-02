@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usrb/bin/env bash
 
 # User can provide one argument (a directory) or no argument at all (current directory)
 

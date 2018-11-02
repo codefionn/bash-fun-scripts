@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # One Argument expected:
 # 1. Argument: GitHub profile name
